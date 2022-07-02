@@ -65,7 +65,7 @@ main h1{
 }
 main .uno{
     margin-top: 30%;
-
+    margin-bottom: 10%;
 }
 
 </style>

@@ -9,11 +9,12 @@ import { RouterLink, RouterView } from 'vue-router'
         <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Mountain-logo-Design-Graphics-9785421-1.png" alt="">
     </div>
     <nav class="d-flex col-6">
-      <RouterLink to="/"> HOMe</RouterLink>
+      <RouterLink to="/"><i class="bi bi-house-door-fill">asd</i> </RouterLink>
       <RouterLink to="/contacto"> contact</RouterLink>
       <RouterLink to="/ideas"> ideas</RouterLink>
     </nav>
       </div>
+      <p><font-awesome-icon icon="phone"/></p>
   </header>
 
   <RouterView @mouseover="headerno" />
