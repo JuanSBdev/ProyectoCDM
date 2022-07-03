@@ -1,8 +1,4 @@
 <script setup>
- import { onMounted } from 'vue';
- onMounted(()=>{
-  
- })
 </script>
 <template>
   <div class="row wraper  d-flex" data-aos="fade-left" >
@@ -68,7 +64,7 @@ justify-content: space-evenly;
 
 }
 .wraper img{
-  max-height: 50%;
+  max-height: 48%;
 }
 .actividades img{
   width: 80%;

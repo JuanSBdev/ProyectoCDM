@@ -6,15 +6,14 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class="wraper row">
       <div class="wel col-6">
-        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Mountain-logo-Design-Graphics-9785421-1.png" alt="">
+        <img class="pt-1" src="https://capilladelmonte.gov.ar/municipalidad/wp-content/uploads/2021/02/capilla-logo-2.png" alt="">
     </div>
-    <nav class="d-flex col-6">
-      <RouterLink to="/"><i class="bi bi-house-door-fill">asd</i> </RouterLink>
-      <RouterLink to="/contacto"> contact</RouterLink>
-      <RouterLink to="/ideas"> ideas</RouterLink>
+    <nav class="d-flex col-4 pt-2">
+      <RouterLink to="/"> <BIconHouseDoorFill/></RouterLink>
+      <RouterLink to="/contacto"> <BIconEnvelopeFill/></RouterLink>
+      <RouterLink to="/ideas"> <BIconCartCheckFill/></RouterLink>
     </nav>
       </div>
-      <p><font-awesome-icon icon="phone"/></p>
   </header>
 
   <RouterView @mouseover="headerno" />
@@ -32,8 +31,7 @@ header{
 
 }
 header img{
-  width: 30%;
-  height: 50%;
+  max-width: 50%;
   overflow: hidden;
 }
 .wel h1{

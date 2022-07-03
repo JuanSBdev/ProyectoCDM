@@ -28,7 +28,7 @@ onMounted(() => {
 <template>
 <main>
   <transition>
-    <h1 class="d-flex titulo" data-aos="zoom-in"> {{titulo}}</h1>
+    <h1 class="d-flex titulo" data-aos="fade-right" v-text="titulo"></h1>
   </transition>
   
   <Transition> 
@@ -40,15 +40,9 @@ onMounted(() => {
    
   </transition>
 </main>
-
 </template>
 <style>
-:root{
-  background-image: url('https://images.pexels.com/photos/991422/pexels-photo-991422.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200');
-  background-size:120%;
-  background-repeat: no-repeat;
 
-}
 
 main{
   position: absolute;
