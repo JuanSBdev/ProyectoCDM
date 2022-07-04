@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -22,7 +23,10 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
   </header>
 
-  <RouterView @mouseover="headerno" />
+  <RouterView />
+  <footer>
+  <Footer></Footer>
+</footer>
 </template>
 
 <style>
@@ -49,5 +53,4 @@ nav a{
   color: black;
   padding: 1%;
 }
-
 </style>

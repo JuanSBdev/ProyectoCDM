@@ -16,7 +16,7 @@
             <img src="https://media.urgente24.com/p/90db0d1bab440ae1489b2fe9b3d17d1b/adjuntos/319/imagenes/002/594/0002594837/sierras-cordobajpg.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://www.serargentino.com/public/images/2021/03/rios%20de%20cordoba-1614611472.jpg" class="d-block w-100" alt="...">
+            <img src="https://www.serargentino.com/public/images/2021/03/rios%20de%20cordoba-1614611472.jpg" class="d-block w-100 " id="tres" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -48,7 +48,14 @@ export default {
 }
 </script>
 <style scoped>
+.container{
+  width: 60%;
+}
+#tres{
+  max-width: 98%;
+ height: 10%;
+}
 img{
-  max-height: 20%;
+  max-height: 18%;
 }
 </style>

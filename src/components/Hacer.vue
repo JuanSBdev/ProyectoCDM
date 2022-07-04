@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="row wraper  d-flex" data-aos="fade-left" >
+  <div class="row wraper  d-flex" data-aos="fade-right" >
     <div class="card col-3" style="">
           <img src="https://media.istockphoto.com/photos/summer-holidays-in-finland-picture-id1148294777?k=20&m=1148294777&s=612x612&w=0&h=Ax8xwUmMJF52lAX6I8MuDPMpZhz1p3emKyWe-DE63_A=" class="card-img-top pt-2" alt="...">
       <div class="card-body">
@@ -39,7 +39,7 @@
     
     
     <div class="card col-3" style="">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjhPbHlmaMFjFlON_LarjU6W8dgGDSdNsQnQ&usqp=CAU'" class="card-img-top pt-2" alt="...">
+          <img src="https://static4.depositphotos.com/1026085/367/i/600/depositphotos_3670776-stock-photo-paragliding.jpg" class="card-img-top pt-2" alt="...">
       <div class="card-body">
           <h5 class="card-title col-12">Actividades</h5>
           <p  class="card-text col-12">Aquí encontraras las mejores opciones para realizar actividades en capilla del monte dependioendo 

@@ -2,6 +2,8 @@
 import { ref, onMounted, onUpdated} from 'vue'
 import Hacer from '../components/Hacer.vue'
 import Segunda from '../components/Segunda.vue';
+import Footer from '../components/Footer.vue';
+
  const titulo = '¿Que puedo hacer en #CDM?'
  const antes2 = 'Galería'
 </script>
@@ -9,7 +11,8 @@ import Segunda from '../components/Segunda.vue';
 <template>
 <main class="row">
   
-    <h1 class="d-flex titulo" data-aos="fade-right" v-text="titulo"></h1>
+    <h1 class="d-flex titulo col-8 pl-2" data-aos="fade-right" v-text="titulo"></h1>
+    <img src="../assets/images/frame.png " class="col-4 qr d-flex ml-2" alt="QR">
   
   <Transition> 
     <Hacer  class="uno" ></Hacer>
@@ -20,7 +23,9 @@ import Segunda from '../components/Segunda.vue';
 <Segunda @mouseover="verOpciones2"></Segunda>
   </transition>
   
+<!-- <Footer/>  -->
 </main>
+
 </template>
 <style>
 
@@ -44,6 +49,13 @@ main h2{
 main .uno{
     margin-top: 35%;
     margin-bottom: 10%;
+}
+main .qr {
+max-width: 12%;
+height: 5%;
+justify-content: center;
+align-self: end;
+margin-left: 10%;
 }
 
 </style>
