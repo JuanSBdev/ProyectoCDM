@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="wel col-6">
         <img class="pt-1" src="https://capilladelmonte.gov.ar/municipalidad/wp-content/uploads/2021/02/capilla-logo-2.png" alt="">
     </div>
-      <nav class="d-flex col-4 pt-2">
+      <nav class="d-flex col-4 pt-2 ml-5">
         <RouterLink to="/">
           <BIconHouseDoorFill/>
         </RouterLink>

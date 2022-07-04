@@ -2,43 +2,24 @@
 import { ref, onMounted, onUpdated} from 'vue'
 import Hacer from '../components/Hacer.vue'
 import Segunda from '../components/Segunda.vue';
-const cuenta = ref(0)
-const bajo = ref(1)
-function increment(){
-  cuenta.value++
-}
-function verOpciones(){
-  bajo.value++
-}
-function verOpciones2(){
-  bajo.value = 0
-}
-onMounted(() => {
-  console.log(` The first value is ${cuenta.value}`)
-}),
- 
- onUpdated(() => {
-  console.log(` The new value is ${cuenta.value}`)
-
- })
  const titulo = '¿Que puedo hacer en #CDM?'
-
+ const antes2 = 'Galería'
 </script>
 
 <template>
-<main>
-  <transition>
+<main class="row">
+  
     <h1 class="d-flex titulo" data-aos="fade-right" v-text="titulo"></h1>
-  </transition>
   
   <Transition> 
     <Hacer  class="uno" ></Hacer>
   </Transition>
 
+  <h2 class="d-flex col-12 " v-text="antes2"></h2>
   <transition>
 <Segunda @mouseover="verOpciones2"></Segunda>
-   
   </transition>
+  
 </main>
 </template>
 <style>
@@ -54,11 +35,14 @@ main h1{
   align-content: center;
   margin-top: 10%;
   font-size: 4rem;
-  padding-top: 10%;
+  padding-top: 25%;
 -webkit-text-stroke: #fff .5px;
 }
+main h2{
+  justify-content: center;
+}
 main .uno{
-    margin-top: 30%;
+    margin-top: 35%;
     margin-bottom: 10%;
 }
 
