@@ -24,9 +24,7 @@ import Footer from './components/Footer.vue';
   </header>
 
   <RouterView />
-  <footer>
-  <Footer></Footer>
-</footer>
+  <Footer class="col-12"/>
 </template>
 
 <style>

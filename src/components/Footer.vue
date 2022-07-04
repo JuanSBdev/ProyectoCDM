@@ -1,5 +1,5 @@
 <template>
-    <div class="container d-flex row w-100">
+    <div class="container d-flex row ">
         <nav class="d-flex  col-6 pt-2 ml-5">
             <RouterLink to="/" >
                 <BIconHouseDoorFill />
@@ -16,14 +16,14 @@
 </template>
 <style scoped>
 :root{
-    width: 100%;
-}
+    }
 .container{
     position: absolute;
     justify-content: space-between;
     background-color: #7858996b;
     margin-top: 160%;
-
+    padding-left:20% ;
+    padding-right:80% ;
 }
 nav{
     flex-flow: column nowrap;
