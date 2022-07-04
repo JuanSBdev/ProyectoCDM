@@ -1,9 +1,13 @@
+<script setup>
+function scrolea(){
+    window.scrollTo(0,0)
+console.log('scrolié')
+}
+</script>
 <template>
-    <div class="container d-flex row ">
-        <nav class="d-flex  col-6 pt-2 ml-5">
-            <RouterLink to="/" >
-                <BIconHouseDoorFill />
-            </RouterLink>
+    <div class="container-footer d-flex row ">
+        <nav class="d-flex  col-8 pt-2 ml-5">
+            
             <RouterLink to="/contacto" >
                 <BIconEnvelopeFill  />
             </RouterLink>
@@ -11,19 +15,25 @@
                 <BIconCartCheckFill  />
             </RouterLink>
       </nav>
-        <BIconArrowUpCircle class="col-6" />
+      <div class="col-4 pt-5 d-flex abajo-footer">
+        <RouterLink to="/" class="d-flex start">
+          <BIconArrowUpCircle @click="scrolea"   />
+        </RouterLink>
+            <p> volver arriba</p>
+
+      </div>
     </div>
 </template>
 <style scoped>
-:root{
-    }
-.container{
+.container-footer{
     position: absolute;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #7858996b;
-    margin-top: 160%;
-    padding-left:20% ;
-    padding-right:80% ;
+    margin-top: 220%;
+}
+.abajo-footer{
+    flex-flow: column nowrap;
+    align-items: center;
 }
 nav{
     flex-flow: column nowrap;

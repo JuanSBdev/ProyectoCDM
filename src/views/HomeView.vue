@@ -2,7 +2,7 @@
 import { ref, onMounted, onUpdated} from 'vue'
 import Hacer from '../components/Hacer.vue'
 import Segunda from '../components/Segunda.vue';
-import Footer from '../components/Footer.vue';
+import Historia from '../components/Historia.vue';
 
  const titulo = '¿Que puedo hacer en #CDM?'
  const antes2 = 'Galería'
@@ -22,8 +22,8 @@ import Footer from '../components/Footer.vue';
   <transition>
 <Segunda @mouseover="verOpciones2"></Segunda>
   </transition>
+  <Historia/>
   
-<!-- <Footer/>  -->
 </main>
 
 </template>
