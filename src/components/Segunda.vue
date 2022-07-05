@@ -50,6 +50,7 @@ export default {
 <style scoped>
 .container{
   width: 60%;
+  padding-bottom: 15%;
 }
 #tres{
   max-width: 98%;
