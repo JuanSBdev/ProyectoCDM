@@ -28,6 +28,7 @@ import Historia from '../components/Historia.vue';
 
 </template>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
 
 
 main{
@@ -42,6 +43,7 @@ main h1{
   font-size: 4rem;
   padding-top: 25%;
 -webkit-text-stroke: #fff .5px;
+font-family: 'Khand', sans-serif;
 }
 main h2{
   justify-content: center;
