@@ -13,10 +13,18 @@
 </div>
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .container-historia{
     justify-content: space-around;
     align-items: end;
     align-content: end;
+}
+.izquierda h1{
+    font-size: 5rem;
+    font-family: 'Varela Round';
+    }
+.izquierda p{
+    font-family: 'Varela Round'
 }
 .derecha img{
     width: 70%;
