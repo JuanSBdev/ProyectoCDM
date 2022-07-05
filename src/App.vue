@@ -16,7 +16,7 @@ import Footer from './components/Footer.vue';
         <RouterLink to="/contacto">
           <BIconEnvelopeFill/>
         </RouterLink>
-        <RouterLink to="/ideas">
+        <RouterLink to="/compras">
           <BIconCartCheckFill/>
         </RouterLink>
       </nav>

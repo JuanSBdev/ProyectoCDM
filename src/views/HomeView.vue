@@ -27,7 +27,7 @@ import Historia from '../components/Historia.vue';
 </main>
 
 </template>
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
 
 
