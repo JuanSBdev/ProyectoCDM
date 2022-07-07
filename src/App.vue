@@ -24,7 +24,10 @@ import Footer from './components/Footer.vue';
   </header>
 
   <RouterView />
-  <Footer class="col-12"/>
+  <footer>
+    <Footer class="col-12"/>
+
+  </footer>
 </template>
 
 <style>
@@ -51,4 +54,5 @@ nav a{
   color: black;
   padding: 1%;
 }
+
 </style>

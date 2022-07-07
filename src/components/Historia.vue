@@ -18,6 +18,7 @@
     justify-content: space-around;
     align-items: end;
     align-content: end;
+    padding-bottom: 8rem;
 }
 .izquierda h1{
     font-size: 5rem;
