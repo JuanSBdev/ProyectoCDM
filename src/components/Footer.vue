@@ -29,7 +29,7 @@ console.log('scrolié')
     position: absolute;
     justify-content: space-around;
     background-color: #7858996b;
-    margin-top: 220%;
+    margin-top: 200%;
 }
 .abajo-footer{
     flex-flow: column nowrap;

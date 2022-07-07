@@ -4,7 +4,7 @@ import Hacer from '../components/Hacer.vue'
 import Segunda from '../components/Segunda.vue';
 import Historia from '../components/Historia.vue';
 
- const titulo = '¿Que puedo hacer en #CDM?'
+ const titulo = '¿Que puedo hacer en CDM?'
  const antes2 = 'Galería'
 </script>
 
@@ -39,7 +39,7 @@ main h1{
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 10%;
+  margin-top: 0%;
   font-size: 4rem;
   padding-top: 25%;
 -webkit-text-stroke: #fff .5px;

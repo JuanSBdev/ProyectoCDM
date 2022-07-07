@@ -12,7 +12,7 @@
           <router-link  to="/alojamientos">
             <div class="d-grid gap-2">
               <button class="btn block btn-secondary">
-                Ver
+                Donde
               </button>
             </div>
           </router-link>
@@ -29,7 +29,7 @@
           <router-link  to="/explorar">
             <div class="d-grid gap-2">
               <button class="btn block btn-secondary">
-                Ver
+                Quiero ir
               </button>
             </div>
           </router-link>
@@ -47,7 +47,7 @@
           </p>
           <router-link  to="/actividades">
             <div class="d-grid gap-2 sin">
-              <button class="btn block btn-secondary">
+              <button class="btn block btn-secondary boton-hacer">
                 Vamos
               </button>
             </div>
@@ -89,7 +89,11 @@ justify-content: space-evenly;
 margin-top: 20%;
 
 }
-a .sin button{
-  text-decoration: none;
+ .card a {
+   text-decoration: none;
+  
+  }
+button{
+  
 }
 </style>
