@@ -8,13 +8,13 @@ console.log('scrolié')
 </script>
 <template>
     <div class="container-footer d-flex row ">
-        <nav class="d-flex  col-8 pt-2 ml-5">
+        <nav class="d-flex  col-6 ">
             
             <RouterLink to="/contacto" >
-                <BIconEnvelopeFill  />
+                <BIconEnvelopeFill  style=" padding-bottom: -1%;" />
             </RouterLink>
             <RouterLink to="/ideas">
-                <BIconCartCheckFill  />
+                <BIconCartCheckFill  style=" padding-top: -2%;"  />
             </RouterLink>
       </nav>
       <div class="col-4 pt-5 d-flex abajo-footer">
@@ -31,7 +31,7 @@ console.log('scrolié')
     position: absolute;
     justify-content: space-around;
     background-color: #7858996b;
-    margin-top: 200%;
+    margin-top: 140%;
     width: 100%;
 }
 .abajo-footer{
@@ -39,6 +39,7 @@ console.log('scrolié')
     align-items: center;
 }
 nav{
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    margin: 0%;
 }
 </style>

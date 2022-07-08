@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, onUpdated} from 'vue'
 import Hacer from '../components/Hacer.vue'
-import Segunda from '../components/Segunda.vue';
 import Historia from '../components/Historia.vue';
 
  const titulo = '¿Que puedo hacer en CDM?'
@@ -18,10 +17,6 @@ import Historia from '../components/Historia.vue';
     <Hacer  class="uno" ></Hacer>
   </Transition>
 
-  <h2 class="d-flex col-12 " v-text="antes2"></h2>
-  <transition>
-<Segunda @mouseover="verOpciones2"></Segunda>
-  </transition>
   <Historia/>
   
 </main>
