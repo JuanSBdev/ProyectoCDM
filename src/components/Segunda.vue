@@ -48,14 +48,7 @@ export default {
 }
 </script>
 <style scoped>
-.container{
-  width: 60%;
-  padding-bottom: 15%;
-}
-#tres{
-  max-width: 98%;
- height: 10%;
-}
+
 img{
   max-height: 18%;
 }

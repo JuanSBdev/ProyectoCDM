@@ -4,7 +4,6 @@ import Hacer from '../components/Hacer.vue'
 import Historia from '../components/Historia.vue';
 
  const titulo = '¿Que puedo hacer en CDM?'
- const antes2 = 'Galería'
 </script>
 
 <template>
