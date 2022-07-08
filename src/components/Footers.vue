@@ -3,11 +3,7 @@ function scrolea(){
     window.scrollTo(0,0)
 console.log('scrolié')
 }
-function fut (){
-    footerSi = !footerSi.value
-}
 
-defineExpose({ fut });
 
 </script>
 <template>
@@ -35,7 +31,8 @@ defineExpose({ fut });
     position: absolute;
     justify-content: space-around;
     background-color: #7858996b;
-    /*margin-top: 200%;*/
+    margin-top: 200%;
+    width: 100%;
 }
 .abajo-footer{
     flex-flow: column nowrap;

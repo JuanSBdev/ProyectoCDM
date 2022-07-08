@@ -89,11 +89,10 @@ justify-content: space-evenly;
 margin-top: 20%;
 
 }
- .card a {
+
+.card a {
    text-decoration: none;
   
-  }
-button{
-  
 }
+
 </style>

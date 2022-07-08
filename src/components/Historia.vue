@@ -1,4 +1,11 @@
 <script setup>
+function fut (){
+    console.log(footerSi.value)
+    footerSi = true
+    
+}
+
+defineExpose({ fut });
 </script>
 <template>
 <div class="container-historia row d-flex" @mouseover="fut">

@@ -6,8 +6,9 @@
 nav{
 justify-content: space-around;
 }
+
 footer {
-    position:fixed;
+    position:relative;
      bottom:0;
      clear:both;
      width:100%;

@@ -1,8 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import { onMounted, ref } from 'vue';
-import Footer from './components/Footer.vue';
-  const footerSi = ref(1)
+import Footers from './components/Footers.vue';
 
 
 
@@ -29,11 +28,10 @@ import Footer from './components/Footer.vue';
       </div>
   </header>
 
-  <RouterView />
-  <footer v-show="footerSi"  @mouseover="fut">
-    <Footer class="col-12"/>
+    <RouterView />
 
-  </footer>
+  <Footers />
+
 </template>
 
 <style>
@@ -60,5 +58,4 @@ nav a{
   color: black;
   padding: 1%;
 }
-
 </style>
