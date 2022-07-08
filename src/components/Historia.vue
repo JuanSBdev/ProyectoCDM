@@ -1,5 +1,7 @@
+<script setup>
+</script>
 <template>
-<div class="container-historia row d-flex">
+<div class="container-historia row d-flex" @mouseover="fut">
     <div class="izquierda col-6">
         <h1  class="" >¿Como Funciona la app?</h1>
         <p class="">

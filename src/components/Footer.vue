@@ -3,6 +3,12 @@ function scrolea(){
     window.scrollTo(0,0)
 console.log('scrolié')
 }
+function fut (){
+    footerSi = !footerSi.value
+}
+
+defineExpose({ fut });
+
 </script>
 <template>
     <div class="container-footer d-flex row ">

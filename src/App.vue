@@ -1,6 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { onMounted, ref } from 'vue';
 import Footer from './components/Footer.vue';
+  const footerSi = ref(1)
+
+
+
+
 </script>
 
 <template>
@@ -24,7 +30,7 @@ import Footer from './components/Footer.vue';
   </header>
 
   <RouterView />
-  <footer>
+  <footer v-show="footerSi"  @mouseover="fut">
     <Footer class="col-12"/>
 
   </footer>
