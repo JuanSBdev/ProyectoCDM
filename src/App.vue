@@ -11,26 +11,30 @@ import Footers from './components/Footers.vue';
 <template>
   <header>
     <div class="wraper row">
-      <div class="wel col-6">
-        <img class="pt-1" src="https://capilladelmonte.gov.ar/municipalidad/wp-content/uploads/2021/02/capilla-logo-2.png" alt="">
+        <div class="wel col-6">
+          <img class="pt-1" src="https://capilladelmonte.gov.ar/municipalidad/wp-content/uploads/2021/02/capilla-logo-2.png" alt="">
+        </div>
+        <nav class="d-flex col-4 pt-2 ml-5">
+          <RouterLink to="/">
+            <BIconHouseDoorFill/>
+          </RouterLink>
+          <RouterLink to="/contacto">
+            <BIconEnvelopeFill/>
+          </RouterLink>
+          <RouterLink to="/compras">
+            <BIconCartCheckFill/>
+          </RouterLink>
+        </nav>
     </div>
-      <nav class="d-flex col-4 pt-2 ml-5">
-        <RouterLink to="/">
-          <BIconHouseDoorFill/>
-        </RouterLink>
-        <RouterLink to="/contacto">
-          <BIconEnvelopeFill/>
-        </RouterLink>
-        <RouterLink to="/compras">
-          <BIconCartCheckFill/>
-        </RouterLink>
-      </nav>
-      </div>
   </header>
+  <main>
+    <RouterView ></RouterView>
 
-    <RouterView />
+  </main>
+  <footer>
+    <Footers />
 
-  <Footers />
+  </footer>
 
 </template>
 
@@ -57,5 +61,10 @@ nav a{
   text-decoration: none;
   color: black;
   padding: 1%;
+}
+footer{
+  position: absolute;
+  padding-top: 120rem;
+  width: 100%;
 }
 </style>
