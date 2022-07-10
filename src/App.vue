@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { onMounted, ref } from 'vue';
 import Footers from './components/Footers.vue';
 
 

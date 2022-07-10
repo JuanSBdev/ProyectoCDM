@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink} from 'vue-router'
+
 </script>
 <template>
   <div class="row wraper  d-flex" data-aos="fade-right" >
@@ -9,13 +11,9 @@
           <p  class="card-text col-12">Aquí encontraras las mejores opciones para realizar actividades en capilla del monte dependioendo 
               de la hora, transporte y energía
           </p>
-          <router-link  to="/alojamientos">
-            <div class="d-grid gap-2">
-              <button class="btn block btn-secondary">
-                Donde
-              </button>
-            </div>
-          </router-link>
+          <RouterLink  to="/alojamiento">
+            asd
+          </RouterLink>
       </div>
     </div>  
     
@@ -26,13 +24,11 @@
           <p  class="card-text col-12">Aquí encontraras las mejores opciones para realizar actividades en capilla del monte dependioendo 
               de la hora, transporte y energía
           </p>
-          <router-link  to="/explorar">
             <div class="d-grid gap-2">
               <button class="btn block btn-secondary">
                 Quiero ir
               </button>
             </div>
-          </router-link>
       </div>
     </div>
     
@@ -45,17 +41,16 @@
           <p  class="card-text col-12">Aquí encontraras las mejores opciones para realizar actividades en capilla del monte dependioendo 
               de la hora, transporte y energía
           </p>
-          <router-link  to="/actividades">
             <div class="d-grid gap-2 sin">
               <button class="btn block btn-secondary boton-hacer">
                 Vamos
               </button>
             </div>
-          </router-link>
       </div>
     </div>
 
   </div>
+  
 </template>
 <style>
  .wraper {
