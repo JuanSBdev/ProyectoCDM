@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Explorar from '../views/Explorar.vue'
 import Actividades from '../views/Actividades.vue'
 import Alojamientos from '../views/Alojamientos.vue'
-
+import Contacto from '../views/Alojamientos.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -15,7 +15,7 @@ const router = createRouter({
     {
       path: '/contacto',
       name: 'explorar',
-      component: Conta
+      component: Contacto
     },
     {
       path: '/actividades',
