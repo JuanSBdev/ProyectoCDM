@@ -1,13 +1,13 @@
 <script setup>
-function succes(){
-    console.log("yeia")
+function registrarme(){
+    console.log("quiere registrarse")
 }
 </script>
 <template>
     <div class="container row d-flex mx-5">
         <img class="d-flex col-s-12" src="https://cezannehr.com/wp-content/uploads/2019/11/Cezanne_Hr_Support_Team_Vector.png">
         <h1 class="col-s-12" >Regístrate para contactarte con nosotros!</h1>
-<b-button pill variant="success" class=" col-2 mt-3 py-2" @click="success">Registrarme</b-button>
+<b-button pill variant="success" class=" col-2 mt-3 py-2" @click="registrarme">Registrarme</b-button>
      </div>
 </template>
 <style scoped>

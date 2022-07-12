@@ -3,8 +3,6 @@ function scrolea(){
     window.scrollTo(0,0)
 console.log('scrolié')
 }
-
-
 </script>
 <template>
     <div class="container-footer d-flex row ">
