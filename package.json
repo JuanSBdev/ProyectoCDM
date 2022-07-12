@@ -16,6 +16,7 @@
     "bootstrap-icons-vue": "^1.8.1",
     "bootstrap-vue": "^2.22.0",
     "bootstrap-vue-3": "^0.1.13",
+    "mdb-vue-ui-kit": "^2.0.0",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16"
   },
