@@ -18,7 +18,7 @@ console.log('scrolié')
             </RouterLink>
       </nav>
       <div class="col-4 pt-5 d-flex abajo-footer">
-        <RouterLink to="/" class="d-flex start">
+        <RouterLink  class="d-flex start">
           <BIconArrowUpCircle @click="scrolea"   />
         </RouterLink>
             <p> volver arriba</p>
