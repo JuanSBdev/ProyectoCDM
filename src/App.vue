@@ -63,7 +63,7 @@ nav a{
 }
 footer{
   position: absolute;
-  padding-top: 120rem;
+  /*padding-top: 120rem;*/
   width: 100%;
 }
 </style>

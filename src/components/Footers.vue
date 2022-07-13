@@ -24,6 +24,7 @@ console.log('scrolié')
 </template>
 <style scoped>
 .container-footer{
+    margin-top: 120rem;
     position:relative;
     justify-content: space-around;
     background-color: #7858996b;
