@@ -31,9 +31,9 @@ import Footers from './components/Footers.vue';
 
   </main>
   <footer>
-    <Footers />
-
-  </footer>
+    <Footers/>
+    
+    </footer>
 
 </template>
 
