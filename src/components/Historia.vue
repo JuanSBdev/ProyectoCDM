@@ -37,6 +37,6 @@ defineExpose({ fut });
     font-family: 'Varela Round'
 }
 .derecha img{
-    width: 70%;
+    width: 100%;
 }
 </style>
