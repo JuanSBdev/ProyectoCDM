@@ -2,8 +2,8 @@
 import { RouterLink } from 'vue-router'
 </script>
 <template>
-  <div class="row wraper  d-flex" data-aos="fade-right" >
-    <div class="card col-3" style="">
+  <div class="row wraper  d-flex" data-aos="fade-right"  >
+    <div class="card col-3" >
           <img src="https://media.istockphoto.com/photos/summer-holidays-in-finland-picture-id1148294777?k=20&m=1148294777&s=612x612&w=0&h=Ax8xwUmMJF52lAX6I8MuDPMpZhz1p3emKyWe-DE63_A=" class="card-img-top pt-2" alt="...">
       <div class="card-body">
           <h5 class="card-title col-12">Alojamientos</h5>
@@ -57,6 +57,8 @@ import { RouterLink } from 'vue-router'
  .wraper {
   display: flex;
 justify-content: space-evenly;
+    z-index: 2;
+
 
 }
 .wraper img{
