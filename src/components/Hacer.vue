@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
           <p  class="card-text col-12">Aquí encontraras las mejores opciones para realizar actividades en capilla del monte dependioendo 
               de la hora, transporte y energía
           </p>
-          <RouterLink to="/alojarse">
+          <RouterLink to="/alojamientos">
             <p class="btn btn-secondary">Alojarse</p>
           </RouterLink>
           
