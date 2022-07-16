@@ -3,6 +3,8 @@ import Login from "../components/Login.vue"
 
 function registrarme(){
     console.log("quiere registrarse")
+        window.scrollTo(10,800)
+
 }
 </script>
 <template>
