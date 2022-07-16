@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router'
               de la hora, transporte y energía
           </p>
           <RouterLink to="/alojarse">
-            <p class="btn btn-primary">Alojarse</p>
+            <p class="btn btn-secondary">Alojarse</p>
           </RouterLink>
           
             
@@ -27,9 +27,9 @@ import { RouterLink } from 'vue-router'
               de la hora, transporte y energía
           </p>
             <div class="d-grid gap-2">
-              <button class="btn btn-secondary">
-                Quiero ir
-              </button>
+              <RouterLink to="/explorar">
+            <p class="btn btn-secondary">Explorar</p>
+          </RouterLink>
             </div>
       </div>
     </div>
@@ -44,9 +44,9 @@ import { RouterLink } from 'vue-router'
               de la hora, transporte y energía
           </p>
             <div class="d-grid gap-2 sin">
-              <button class="btn btn-secondary boton-hacer">
-                Vamos
-              </button>
+              <RouterLink to="/actividades">
+            <p class="btn btn-secondary">Vamos</p>
+          </RouterLink>
             </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ justify-content: space-evenly;
 
 }
 .wraper img{
-  max-height: 48%;
+  max-height: 46%;
 }
 .actividades img{
   width: 80%;

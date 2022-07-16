@@ -9,7 +9,7 @@ defineExpose({ fut });
 </script>
 <template>
 <div class="container-historia row d-flex" @mouseover="fut">
-    <div class="izquierda col-8 py-2">
+    <div class="izquierda col-8 ">
         <h1  class="" >¿Como Funciona la app?</h1>
         <p class="">
             Cada vez que veas SYMBOLO este codigo QR puedes escanearlo desde tu camara y te mostrará información sobre el lugar en donde te encuentres,
@@ -27,7 +27,8 @@ defineExpose({ fut });
     justify-content: space-around;
     align-items: end;
     align-content: end;
-    padding-bottom: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 14rem;
 }
 .izquierda h1{
     font-size: 5rem;
