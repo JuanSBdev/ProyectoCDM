@@ -6,18 +6,18 @@ import { ref } from 'vue';
 <div class="container d-flex row ">
     <div class="camping col-3 mx-1">
         <h1>
-            Quiero parar en un camping
+            Campings
         </h1>
         
     </div>
     <div class="cabañas col-3 mx-1">
             <h2>
-                Quiero dormir en una cabaña
+                cabañas
             </h2>
     </div>
     <div class="hoteles col-3 mx-1"> 
             <h3>
-                quiero alojarme en un hotel
+                hoteles
             </h3>
     </div>
 
