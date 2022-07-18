@@ -20,6 +20,7 @@
 
       <b-form-group id="input-group-2" label="Your Pass:" label-for="input-2">
         <b-form-input
+          type="password"
           id="input-2"
           v-model="form.password"
           placeholder="****"
