@@ -14,7 +14,7 @@ const router = createRouter({
     },
     {
       path: '/contacto',
-      name: 'explorar',
+      name: 'contacto',
       component: Contacto
     },
     {
@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/alojamientos',
       name: 'Alojamientos',
       component: Alojamientos
+    },
+    {
+      path: '/explorar',
+      name: 'Explorar',
+      component: Explorar
     }
     
   ]

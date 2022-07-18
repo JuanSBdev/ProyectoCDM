@@ -15,6 +15,7 @@ function registrarme(){
      </div>
      <div class="abajo">
        <Login></Login>
+       
        <img src="https://indyme.com/wp-content/uploads/2020/11/lock-icon.png" alt="">
      </div>
 </template>
